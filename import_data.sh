@@ -13,7 +13,7 @@ do
     COLLECTION_NAME="task_results_online"
 
     # Set file path (using the element and file name)
-    FILE_PATH="$element/DistanceMonitoring/hr_distance.csv"
+    FILE_PATH="$simulation_name/Distance_Monitoring/hr_distance.csv"
 
     # Check if the specified file exists
     if [ ! -f "$FILE_PATH" ]; then
