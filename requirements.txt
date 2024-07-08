@@ -3,3 +3,4 @@ seaborn
 matplotlib
 tabulate
 argparse
+pymongo
