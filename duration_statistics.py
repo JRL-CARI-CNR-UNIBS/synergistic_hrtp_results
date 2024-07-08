@@ -35,11 +35,11 @@ def main():
     parser = argparse.ArgumentParser(description="Process some integers.")
     parser.add_argument("--latex", action="store_true", help="Output results in LaTeX format")
     parser.add_argument("--plotly", action="store_true", help="Show results using Plotly")
-    parser.add_argument("--db", choices=DATABASES.keys(), required=True, help="Select the database to use")
+    parser.add_argument("--experiment", choices=DATABASES.keys(), required=True, help="Select the database to use")
 
     args = parser.parse_args()
 
-    database_name, results_collection_name = DATABASES[args.db]
+    database_name, results_collection_name = DATABASES[args.experiment]
     mongo_interface = MongoInterface(database_name)
 
     pipeline = StatisticalPipeline.recipes_duration_pipeline()

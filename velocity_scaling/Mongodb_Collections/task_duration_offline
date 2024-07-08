@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "agent": "ur5_on_guide",
+    "name": "pick_blue_box"
+  },
+  "counter": 100,
+  "success_rate": 1,
+  "min": 4.4236228466033936,
+  "max": 28.529308795928955,
+  "name": "pick_blue_box",
+  "agent": "ur5_on_guide",
+  "expected_duration": 9.790916619300843,
+  "duration_stddev": 6.3487311886878794
+},{
+  "_id": {
+    "agent": "human_right_arm",
+    "name": "pick_blue_box"
+  },
+  "counter": 100,
+  "success_rate": 1,
+  "min": 4.4611687660217285,
+  "max": 11.977601051330566,
+  "name": "pick_blue_box",
+  "agent": "human_right_arm",
+  "expected_duration": 6.294078304767608,
+  "duration_stddev": 1.2358845362759396
+},{
+  "_id": {
+    "agent": "ur5_on_guide",
+    "name": "pick_orange_box"
+  },
+  "counter": 200,
+  "success_rate": 1,
+  "min": 4.615394353866577,
+  "max": 6.486253499984741,
+  "name": "pick_orange_box",
+  "agent": "ur5_on_guide",
+  "expected_duration": 5.303876295089721,
+  "duration_stddev": 0.4216388710314738
+},{
+  "_id": {
+    "agent": "human_right_arm",
+    "name": "pick_white_box"
+  },
+  "counter": 150,
+  "success_rate": 1,
+  "min": 5.626282691955566,
+  "max": 7.9243879318237305,
+  "name": "pick_white_box",
+  "agent": "human_right_arm",
+  "expected_duration": 6.5559657271703085,
+  "duration_stddev": 0.47212922777763966
+},{
+  "_id": {
+    "agent": "human_right_arm",
+    "name": "place_blue_box_human_right_arm"
+  },
+  "counter": 100,
+  "success_rate": 1,
+  "min": 3.4198150634765625,
+  "max": 5.8688366413116455,
+  "name": "place_blue_box_human_right_arm",
+  "agent": "human_right_arm",
+  "expected_duration": 3.8898812556266784,
+  "duration_stddev": 0.42445832598405087
+},{
+  "_id": {
+    "agent": "ur5_on_guide",
+    "name": "place_blue_box_ur5_on_guide"
+  },
+  "counter": 100,
+  "success_rate": 1,
+  "min": 3.097296714782715,
+  "max": 7.439022064208984,
+  "name": "place_blue_box_ur5_on_guide",
+  "agent": "ur5_on_guide",
+  "expected_duration": 3.4761160469055175,
+  "duration_stddev": 0.47283310812243307
+},{
+  "_id": {
+    "agent": "ur5_on_guide",
+    "name": "place_orange_box"
+  },
+  "counter": 200,
+  "success_rate": 1,
+  "min": 3.908266544342041,
+  "max": 12.192070722579956,
+  "name": "place_orange_box",
+  "agent": "ur5_on_guide",
+  "expected_duration": 5.146811236143112,
+  "duration_stddev": 1.6337431375246512
+},{
+  "_id": {
+    "agent": "human_right_arm",
+    "name": "place_white_box"
+  },
+  "counter": 150,
+  "success_rate": 1,
+  "min": 4.528198957443237,
+  "max": 6.185687780380249,
+  "name": "place_white_box",
+  "agent": "human_right_arm",
+  "expected_duration": 5.101784140268961,
+  "duration_stddev": 0.5365041513003296
+}]

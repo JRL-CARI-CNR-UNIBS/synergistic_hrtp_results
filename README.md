@@ -1,7 +1,9 @@
 # Paper results and analysis
 
 ## Installation
+Minimal (for distance comparison):
 
+Full (for both):
 
 ## Human-Robot Distance Comparison
 
@@ -17,6 +19,8 @@ args:
   * `realworld_case_study`: Real-World Case Study experiment
 
 ## Human-Robot Duration Comparison
+To plot the comparison of TPs durations, it is necessary to install mongodb and create a database with the collections in the various folders.
+
 ```
 python3 duration_statistics.py --latex --plotly --db
 ```

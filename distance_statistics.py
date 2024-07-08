@@ -8,8 +8,8 @@ from tabulate import tabulate
 import argparse
 
 EXPERIMENTS = {
-    "safety_areas": "safety_areas/hr_distance.csv",
-    "velocity_scaling": "velocity_scaling/hr_distance.csv",
+    "safety_areas": "safety_areas/Distance_Monitoring/hr_distance.csv",
+    "velocity_scaling": "velocity_scaling/Distance_Monitoring/hr_distance.csv",
     "realworld_case_study": "hrc_case_study/hrc_case_study_results/Distance_Monitoring/hr_distance.csv"
 }
 

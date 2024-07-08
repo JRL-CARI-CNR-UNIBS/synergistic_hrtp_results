@@ -1,0 +1,88 @@
+pick_orange_box_1:
+  t_start: 47.43544039487767
+  t_end: 52.739316689967396
+  agent: ur5_on_guide
+pick_orange_box_2:
+  t_start: -1.2612133559741778e-13
+  t_end: 5.303876295089595
+  agent: ur5_on_guide
+pick_orange_box_3:
+  t_start: 10.450687531232333
+  t_end: 15.754563826322055
+  agent: ur5_on_guide
+pick_orange_box_4:
+  t_start: 57.88612792611059
+  t_end: 63.19000422120031
+  agent: ur5_on_guide
+pick_blue_box_1:
+  t_start: 10.183959560394442
+  t_end: 16.47803786516205
+  agent: human_right_arm
+pick_blue_box_2:
+  t_start: 0.0
+  t_end: 6.294078304767608
+  agent: human_right_arm
+pick_blue_box_3:
+  t_start: 34.16840772867137
+  t_end: 43.95932434797221
+  agent: ur5_on_guide
+pick_blue_box_4:
+  t_start: 20.90137506246515
+  t_end: 30.692291681765994
+  agent: ur5_on_guide
+pick_white_box_1:
+  t_start: 45.0213157224648
+  t_end: 51.57728144963511
+  agent: human_right_arm
+pick_white_box_2:
+  t_start: 56.67906558990415
+  t_end: 63.23503131707446
+  agent: human_right_arm
+pick_white_box_3:
+  t_start: 20.367919120788933
+  t_end: 26.923884847959243
+  agent: human_right_arm
+place_orange_box_1:
+  t_start: 52.739316689967396
+  t_end: 57.886127926110504
+  agent: ur5_on_guide
+place_orange_box_2:
+  t_start: 5.303876295089595
+  t_end: 10.450687531232706
+  agent: ur5_on_guide
+place_orange_box_3:
+  t_start: 15.754563826322055
+  t_end: 20.901375062465167
+  agent: ur5_on_guide
+place_orange_box_4:
+  t_start: 63.19000422120031
+  t_end: 68.33681545734342
+  agent: ur5_on_guide
+place_blue_box_1:
+  t_start: 16.47803786516205
+  t_end: 20.36791912078873
+  agent: human_right_arm
+place_blue_box_2:
+  t_start: 6.294078304767608
+  t_end: 10.183959560394287
+  agent: human_right_arm
+place_blue_box_3:
+  t_start: 43.95932434797221
+  t_end: 47.43544039487773
+  agent: ur5_on_guide
+place_blue_box_4:
+  t_start: 30.692291681765994
+  t_end: 34.16840772867151
+  agent: ur5_on_guide
+place_white_box_1:
+  t_start: 51.57728144963511
+  t_end: 56.67906558990407
+  agent: human_right_arm
+place_white_box_2:
+  t_start: 63.23503131707446
+  t_end: 68.33681545734342
+  agent: human_right_arm
+place_white_box_3:
+  t_start: 26.923884847959243
+  t_end: 32.025668988228205
+  agent: human_right_arm

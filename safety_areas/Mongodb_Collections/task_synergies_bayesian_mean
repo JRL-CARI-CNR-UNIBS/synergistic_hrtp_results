@@ -1,0 +1,385 @@
+[{
+  "_id": {
+    "$oid": "64afb48dd36f07fab5b44748"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "pick_blue_box",
+  "concurrent_skill": "pick_orange_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.9382437467575073,
+  "std_err": 0.051420893520116806,
+  "counter": 25
+},{
+  "_id": {
+    "$oid": "64afb48dd36f07fab5b44749"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "place_blue_box_human_right_arm",
+  "concurrent_skill": "pick_orange_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.1387598514556885,
+  "std_err": 0.08287721127271652,
+  "counter": 17
+},{
+  "_id": {
+    "$oid": "64afb48dd36f07fab5b4474a"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "place_white_box",
+  "concurrent_skill": "pick_orange_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.0456573963165283,
+  "std_err": 0.03930153697729111,
+  "counter": 65
+},{
+  "_id": {
+    "$oid": "64afb48dd36f07fab5b4474b"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "pick_white_box",
+  "concurrent_skill": "pick_orange_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.9604070782661438,
+  "std_err": 0.013997833244502544,
+  "counter": 144
+},{
+  "_id": {
+    "$oid": "64afb4bbd36f07fab5b4474c"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "pick_blue_box",
+  "concurrent_skill": "place_orange_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.8125814199447632,
+  "std_err": 0.029478924348950386,
+  "counter": 60
+},{
+  "_id": {
+    "$oid": "64afb4bbd36f07fab5b4474d"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "place_blue_box_human_right_arm",
+  "concurrent_skill": "place_orange_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.0992718935012817,
+  "std_err": 0.03814275190234184,
+  "counter": 52
+},{
+  "_id": {
+    "$oid": "64afb4bbd36f07fab5b4474e"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "place_white_box",
+  "concurrent_skill": "place_orange_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.0247437953948975,
+  "std_err": 0.014746851287782192,
+  "counter": 125
+},{
+  "_id": {
+    "$oid": "64afb4bbd36f07fab5b4474f"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "pick_white_box",
+  "concurrent_skill": "place_orange_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.9865129590034485,
+  "std_err": 0.020334092900156975,
+  "counter": 122
+},{
+  "_id": {
+    "$oid": "64afb4d3d36f07fab5b44750"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "pick_blue_box",
+  "concurrent_skill": "place_blue_box_human_right_arm",
+  "success_rate": 1,
+  "dynamic_risk": 2.3224477767944336,
+  "std_err": 0.17599734663963318,
+  "counter": 13
+},{
+  "_id": {
+    "$oid": "64afb4d3d36f07fab5b44751"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "place_blue_box_ur5_on_guide",
+  "concurrent_skill": "place_blue_box_human_right_arm",
+  "success_rate": 1,
+  "dynamic_risk": 2.4054481983184814,
+  "std_err": 0.16153058409690857,
+  "counter": 21
+},{
+  "_id": {
+    "$oid": "64afb4d3d36f07fab5b44752"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "place_orange_box",
+  "concurrent_skill": "place_blue_box_human_right_arm",
+  "success_rate": 1,
+  "dynamic_risk": 1.694620132446289,
+  "std_err": 0.0661894753575325,
+  "counter": 52
+},{
+  "_id": {
+    "$oid": "64afb4d3d36f07fab5b44753"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "pick_orange_box",
+  "concurrent_skill": "place_blue_box_human_right_arm",
+  "success_rate": 1,
+  "dynamic_risk": 2.35817813873291,
+  "std_err": 0.18350134789943695,
+  "counter": 17
+},{
+  "_id": {
+    "$oid": "64afb4f1d36f07fab5b44754"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "pick_blue_box",
+  "concurrent_skill": "pick_blue_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.3745986223220825,
+  "std_err": 0.18650361895561218,
+  "counter": 22
+},{
+  "_id": {
+    "$oid": "64afb4f1d36f07fab5b44755"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "place_blue_box_ur5_on_guide",
+  "concurrent_skill": "pick_blue_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.2594311237335205,
+  "std_err": 0.14302866160869598,
+  "counter": 28
+},{
+  "_id": {
+    "$oid": "64afb4f1d36f07fab5b44756"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "place_orange_box",
+  "concurrent_skill": "pick_blue_box",
+  "success_rate": 1,
+  "dynamic_risk": 2.3396027088165283,
+  "std_err": 0.1431683897972107,
+  "counter": 60
+},{
+  "_id": {
+    "$oid": "64afb4f1d36f07fab5b44757"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "pick_orange_box",
+  "concurrent_skill": "pick_blue_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.0334560871124268,
+  "std_err": 0.10639382153749466,
+  "counter": 25
+},{
+  "_id": {
+    "$oid": "64afb535d36f07fab5b44758"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "pick_blue_box",
+  "concurrent_skill": "place_blue_box_ur5_on_guide",
+  "success_rate": 1,
+  "dynamic_risk": 1.351705551147461,
+  "std_err": 0.07064509391784668,
+  "counter": 28
+},{
+  "_id": {
+    "$oid": "64afb535d36f07fab5b44759"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "place_blue_box_human_right_arm",
+  "concurrent_skill": "place_blue_box_ur5_on_guide",
+  "success_rate": 1,
+  "dynamic_risk": 0.34167125821113586,
+  "std_err": 0.10448145866394043,
+  "counter": 21
+},{
+  "_id": {
+    "$oid": "64afb536d36f07fab5b4475a"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "place_white_box",
+  "concurrent_skill": "place_blue_box_ur5_on_guide",
+  "success_rate": 1,
+  "dynamic_risk": 1.0075312852859497,
+  "std_err": 0.04199106991291046,
+  "counter": 50
+},{
+  "_id": {
+    "$oid": "64afb536d36f07fab5b4475b"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "pick_white_box",
+  "concurrent_skill": "place_blue_box_ur5_on_guide",
+  "success_rate": 1,
+  "dynamic_risk": 0.9913696646690369,
+  "std_err": 0.04102011397480965,
+  "counter": 33
+},{
+  "_id": {
+    "$oid": "64afb552d36f07fab5b4475c"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "pick_blue_box",
+  "concurrent_skill": "pick_white_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.7619848847389221,
+  "std_err": 0.031198015436530113,
+  "counter": 58
+},{
+  "_id": {
+    "$oid": "64afb552d36f07fab5b4475d"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "place_blue_box_ur5_on_guide",
+  "concurrent_skill": "pick_white_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.8201884031295776,
+  "std_err": 0.058617111295461655,
+  "counter": 33
+},{
+  "_id": {
+    "$oid": "64afb552d36f07fab5b4475e"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "place_orange_box",
+  "concurrent_skill": "pick_white_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.6944630146026611,
+  "std_err": 0.03781953826546669,
+  "counter": 122
+},{
+  "_id": {
+    "$oid": "64afb552d36f07fab5b4475f"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "pick_orange_box",
+  "concurrent_skill": "pick_white_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.9552240967750549,
+  "std_err": 0.02200922742486,
+  "counter": 144
+},{
+  "_id": {
+    "$oid": "64afb56fd36f07fab5b44760"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "pick_blue_box",
+  "concurrent_skill": "place_white_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.8835989832878113,
+  "std_err": 0.03881540894508362,
+  "counter": 31
+},{
+  "_id": {
+    "$oid": "64afb56fd36f07fab5b44761"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "place_blue_box_ur5_on_guide",
+  "concurrent_skill": "place_white_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.7003043293952942,
+  "std_err": 0.019293226301670074,
+  "counter": 50
+},{
+  "_id": {
+    "$oid": "64afb56fd36f07fab5b44762"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "place_orange_box",
+  "concurrent_skill": "place_white_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.8147528171539307,
+  "std_err": 0.013234385289251804,
+  "counter": 125
+},{
+  "_id": {
+    "$oid": "64afb56fd36f07fab5b44763"
+  },
+  "agent": "ur5_on_guide",
+  "concurrent_agent": "human_right_arm",
+  "agent_skill": "pick_orange_box",
+  "concurrent_skill": "place_white_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.7905475497245789,
+  "std_err": 0.017200389876961708,
+  "counter": 65
+},{
+  "_id": {
+    "$oid": "64afb5b7d36f07fab5b44764"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "pick_blue_box",
+  "concurrent_skill": "pick_blue_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.9923432469367981,
+  "std_err": 0.1997428983449936,
+  "counter": 22
+},{
+  "_id": {
+    "$oid": "64afb5b7d36f07fab5b44765"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "place_blue_box_human_right_arm",
+  "concurrent_skill": "pick_blue_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.3345693349838257,
+  "std_err": 0.28446435928344727,
+  "counter": 13
+},{
+  "_id": {
+    "$oid": "64afb5b7d36f07fab5b44766"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "place_white_box",
+  "concurrent_skill": "pick_blue_box",
+  "success_rate": 1,
+  "dynamic_risk": 1.0942394733428955,
+  "std_err": 0.08233051002025604,
+  "counter": 31
+},{
+  "_id": {
+    "$oid": "64afb5b7d36f07fab5b44767"
+  },
+  "agent": "human_right_arm",
+  "concurrent_agent": "ur5_on_guide",
+  "agent_skill": "pick_white_box",
+  "concurrent_skill": "pick_blue_box",
+  "success_rate": 1,
+  "dynamic_risk": 0.8868650794029236,
+  "std_err": 0.029366472736001015,
+  "counter": 58
+}]
