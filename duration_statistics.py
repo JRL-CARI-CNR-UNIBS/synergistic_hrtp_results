@@ -3,7 +3,6 @@
 import argparse
 from MongoInterface import MongoInterface
 from statistical_pipeline import StatisticalPipeline
-import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -26,8 +25,8 @@ RECIPE_NAMES = {
 }
 
 DATABASES = {
-    "safety_areas": ("new_safety_areas", "task_results_final_version"),
-    "velocity_scaling": ("iso15066_lun_31", "complete_task_results"),
+    "safety_areas": ("safety_areas", "task_results_online"),
+    "velocity_scaling": ("velocity_scaling", "task_results_online"),
     "realworld_case_study": ("hrc_case_study", "task_results_online")
 }
 

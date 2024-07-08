@@ -32,4 +32,23 @@ class StatisticalPipeline:
                     'recipe_duration': True
                 }
             }
+        ]   
+    
+    @staticmethod
+    def grouped_synergies_pipeline() -> list:
+        pipeline = [        # Pipeline to group/separate synergies elements by agent  
+        {
+            '$sort': {
+                'agent_skill': 1, 
+                'concurrent_skill': 1
+            }
+        }, {
+            '$group': {
+                '_id': '$agent', 
+                'grouped_task_agent': {
+                    '$push': '$$ROOT'
+                }
+            }
+        }
         ]
+        return pipeline
