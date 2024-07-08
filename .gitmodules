@@ -1,0 +1,3 @@
+[submodule "hrc_case_study"]
+	path = hrc_case_study
+	url = https://github.com/JRL-CARI-CNR-UNIBS/hrc_case_study.git
