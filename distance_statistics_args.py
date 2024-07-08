@@ -4,20 +4,25 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.ticker as mtick
-from pathlib import Path
 from tabulate import tabulate
 import argparse
 
+EXPERIMENTS = {
+    "safety_areas": "safety_areas/hr_distance.csv",
+    "velocity_scaling": "velocity_scaling/hr_distance.csv",
+    "realworld_case_study": "hrc_case_study/hrc_case_study_results/Distance_Monitoring/hr_distance.csv"
+}
+
 def main():
     parser = argparse.ArgumentParser(description="Process some files.")
-    parser.add_argument('file_path', type=str, help='Path to the input CSV file')
     parser.add_argument('--zoom', action='store_true', help='Enable zoom in the plot')
     parser.add_argument('--latex', action='store_true', help='Add print of latex table')
-    
+    parser.add_argument("--experiment", choices=EXPERIMENTS.keys(), required=True, help="Select the experiment")
+
     args = parser.parse_args()
-    file_path = args.file_path
     zoom = args.zoom
     latex = args.latex
+    experiment_path = EXPERIMENTS.get(args.experiment, "safety_areas")
     
     sns.set_theme()
     recipes_to_compare = ["COMPLETE_HA_SOLVER", "RELAXED_HA_SOLVER", "NOT_NEIGHBORING_SOLVER", "BASIC_SOLVER"]
@@ -33,7 +38,7 @@ def main():
     RECIPE_S_D_TYPE_COLUMN = "Safety Distance Levels"
 
     risky_distances = [0.4, 0.5, 0.7, 0.8]
-    distance_dataset = pd.read_csv(file_path)
+    distance_dataset = pd.read_csv(experiment_path)
     distance_dataset = distance_dataset.replace(np.inf, np.nan)
     distance_dataset = distance_dataset.dropna()
 
