@@ -1,7 +1,7 @@
 import sys
 import json
 from pymongo import MongoClient
-from pymongo.errors import ConnectionError, BulkWriteError
+from pymongo.errors import BulkWriteError, ConfigurationError
 
 def import_data_to_mongodb(database_name, collection_name, file_path):
     try:
@@ -21,10 +21,12 @@ def import_data_to_mongodb(database_name, collection_name, file_path):
         
         print(f"Data inserted successfully into collection '{collection_name}' of database '{database_name}'.")
         
-    except ConnectionError:
-        print("Error connecting to MongoDB. Make sure MongoDB is running.")
+    except ConfigurationError as ce:
+        print(f"MongoDB configuration error: {ce}")
     except BulkWriteError as bwe:
         print(f"Error inserting data: {bwe.details}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 # Check for arguments passed from the Bash script
 if __name__ == "__main__":
