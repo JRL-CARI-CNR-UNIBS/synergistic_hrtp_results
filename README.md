@@ -34,7 +34,7 @@ The `import_data.sh` script will create a virtual environment, install the neces
 To run the Human-Robot Distance Comparison analysis, use the following command:
 
 ```
-python3 scripts/duration_statistics.py --latex --plotly --db "safety_areas"
+python3 scripts/duration_statistics.py --latex --plotly --experiment safety_areas
 ```
 args:
 * `--zoom`: Activate the window zoomed for low distances
@@ -48,7 +48,7 @@ args:
 To plot the comparison of TPs durations, it is necessary to install mongodb and create a database with the collections in the various folders.
 
 ```
-python3 duration_statistics.py --latex --plotly --db
+python3 scripts/duration_statistics.py --latex --plotly --db safety_areas
 ```
 args:
 * `--latex`: Activate the LaTeX table print
@@ -59,3 +59,12 @@ args:
   * `realworld_case_study`: Real-World Case Study experiment
 
 ## Synergies
+
+```
+python3 scripts/synergies.py --experiment safety_areas
+```
+args:
+* `--experiment`: Experiment name for selecting the results of that test. Possible values:
+  * `safety_areas`: Safety Areas experiment (simulation)
+  * `velocity_scaling`: Velocity Scaling experiment (simulation)
+  * `realworld_case_study`: Real-World Case Study experiment

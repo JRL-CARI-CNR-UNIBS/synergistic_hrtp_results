@@ -66,7 +66,7 @@ done
 DATABASE_NAME="hrc_case_study"
 for collection_name in "${COLLECTIONS[@]}"
 do
-    FILE_PATH="e_waste_case_study/hrc_case_study_results/Mongodb_Collections/$collection_name"
+    FILE_PATH="hrc_case_study/hrc_case_study_results/Mongodb_Collections/$collection_name"
     echo "Running Python script to import data into MongoDB for database '$DATABASE_NAME' and collection '$collection_name'..."
     $PYTHON_EXECUTABLE $PYTHON_SCRIPT $DATABASE_NAME $collection_name $FILE_PATH
     echo "Operation completed for database '$DATABASE_NAME' and collection '$collection_name'."
