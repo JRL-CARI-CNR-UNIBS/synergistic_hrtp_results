@@ -69,7 +69,7 @@ args:
   * `velocity_scaling`: Velocity Scaling experiment (simulation)
   * `realworld_case_study`: Real-World Case Study experiment
 
-##Contact
+## Contact
 If you have any problems with installation, reproduction, or doubts, please do not hesitate to contact me by email:
 
 * Samuele Sandrini: [samuele.sandrini@polito.it](mailto:samuele.sandrini@polito.it)
