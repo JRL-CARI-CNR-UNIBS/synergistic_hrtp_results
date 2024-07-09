@@ -3,6 +3,28 @@
 # Safety areas and velocity scaling as requested
 SIMULATIONS=("safety_areas" "velocity_scaling")
 
+# Create a virtual environment in the 'venv' directory and install requirements
+VENV_DIR="venv"
+REQUIREMENTS_FILE="requirements.txt"
+
+# Check if the virtual environment directory already exists
+if [ ! -d "$VENV_DIR" ]; then
+    echo "Creating virtual environment..."
+    python3 -m venv $VENV_DIR
+fi
+
+# Activate the virtual environment
+source $VENV_DIR/bin/activate
+
+# Check if requirements.txt exists and install the required packages
+if [ -f "$REQUIREMENTS_FILE" ]; then
+    echo "Installing requirements..."
+    pip install -r $REQUIREMENTS_FILE
+else
+    echo "Requirements file $REQUIREMENTS_FILE does not exist."
+    exit 1
+fi
+
 # Iterate over each element
 for simulation_name in "${SIMULATIONS[@]}"
 do
@@ -31,3 +53,6 @@ do
 
     echo "Operation completed for database '$DATABASE_NAME' and collection '$COLLECTION_NAME'."
 done
+
+# Deactivate the virtual environment
+deactivate
