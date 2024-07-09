@@ -53,7 +53,7 @@ python3 scripts/duration_statistics.py --latex --plotly --experiment safety_area
 args:
 * `--latex`: Activate the LaTeX table print
 * `--plotly`: Activate the Plotly plot
-* `--db`: Database name for selecting the results of that test. Possible values:
+* `--experiment`: Database name for selecting the results of that test. Possible values:
   * `safety_areas`: Safety Areas experiment (simulation)
   * `velocity_scaling`: Velocity Scaling experiment (simulation)
   * `realworld_case_study`: Real-World Case Study experiment
