@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 DATABASES = {
     "safety_areas": ("safety_areas", "task_synergies"),
     "velocity_scaling": ("velocity_scaling", "task_synergies"),
-    "realworld_case_study": ("aaa", "task_synergies")
+    "realworld_case_study": ("hrc_case_study", "task_synergies")
 }
 
 RECIPE_NAMES = {
