@@ -69,6 +69,11 @@ args:
   * `velocity_scaling`: Velocity Scaling experiment (simulation)
   * `realworld_case_study`: Real-World Case Study experiment
 
+## Statistical analysis of the questionnaire
+| Path  | Notebook |
+| ----- | -------- |
+| <a href="https://github.com/JRL-CARI-CNR-UNIBS/hrc_case_study/blob/e_waste_case_study/hrc_case_study_results/Questionnaire/Mann_Whitney_Wilcoxon_Test.ipynb">Mann_Whitney_Wilcoxon_Test</a> | <a href="https://colab.research.google.com/github/JRL-CARI-CNR-UNIBS/hrc_case_study/blob/e_waste_case_study/hrc_case_study_results/Questionnaire/Mann_Whitney_Wilcoxon_Test.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>                  |
+
 ## Contact
 If you have any problems with installation, reproduction, or doubts, please do not hesitate to contact me by email:
 
