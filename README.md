@@ -58,7 +58,7 @@ args:
   * `velocity_scaling`: Velocity Scaling experiment (simulation)
   * `realworld_case_study`: Real-World Case Study experiment
 
-## Synergies
+## Human-Robot Synergies matrix
 
 ```
 python3 scripts/synergies.py --experiment safety_areas
@@ -68,3 +68,8 @@ args:
   * `safety_areas`: Safety Areas experiment (simulation)
   * `velocity_scaling`: Velocity Scaling experiment (simulation)
   * `realworld_case_study`: Real-World Case Study experiment
+
+##Contact
+If you have any problems with installation, reproduction, or doubts, please do not hesitate to contact me by email:
+
+* Samuele Sandrini: [samuele.sandrini@polito.it](mailto:samuele.sandrini@polito.it)
