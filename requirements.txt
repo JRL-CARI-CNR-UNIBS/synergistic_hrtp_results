@@ -4,3 +4,4 @@ matplotlib
 tabulate
 argparse
 pymongo
+plotly
