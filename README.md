@@ -9,20 +9,19 @@ Prerequisites:
 
 ### Steps
 
-1. **Clone the repository**
+1. **Clone the repository**: Take care to use this command to clone the repo since there is a submodule inside this repo with the experiments results.
 
   ```bash
    git clone --recurse-submodules https://github.com/SamueleSandrini/synergistic_hrtp_results
    cd synergistic_hrtp_results
   ```
-2. **Install MongoDB using Docker** To install and run MongoDB using Docker, execute the following commands (note that if you already installed that MongoDB docker the first command will fail but you can skip and go on):
+2. **Install MongoDB using Docker**: To install and run MongoDB using Docker, execute the following commands (note that if you already installed that MongoDB docker the first command will fail but you can skip and go on):
 
   ```bash
   docker pull mongodb/mongodb-community-server:latest
   docker run -p 27017:27017 -d mongodb/mongodb-community-server:latest
   ```
-3. **Source the import_data.sh script**
-The `import_data.sh` script will create a virtual environment, source it, install the necessary requirements, create the MongoDB database with the required collections, and import the data.
+3. **Source the import_data.sh script**: The `import_data.sh` script will create a virtual environment, source it, install the necessary requirements, create the MongoDB database with the required collections, and import the data.
 
   ```bash
   source import_data.sh
