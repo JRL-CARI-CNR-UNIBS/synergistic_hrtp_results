@@ -15,7 +15,7 @@ Prerequisites:
    git clone --recurse-submodules https://github.com/SamueleSandrini/synergistic_hrtp_results
    cd synergistic_hrtp_results
   ```
-2. **Install MongoDB using Docker** To install and run MongoDB using Docker, execute the following commands:
+2. **Install MongoDB using Docker** To install and run MongoDB using Docker, execute the following commands (note that if you already installed that MongoDB docker the first command will fail but you can skip and go on):
 
   ```bash
   docker pull mongodb/mongodb-community-server:latest
