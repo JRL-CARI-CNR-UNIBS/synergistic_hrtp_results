@@ -5,7 +5,7 @@
 Prerequisites:
 
 - Python 3.x
-- Docker
+- [Docker](https://docs.docker.com/engine/install/)
 
 ### Steps
 
