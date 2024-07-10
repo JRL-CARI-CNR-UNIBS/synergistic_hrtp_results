@@ -21,8 +21,8 @@ Prerequisites:
   docker pull mongodb/mongodb-community-server:latest
   docker run -p 27017:27017 -d mongodb/mongodb-community-server:latest
   ```
-3. **Run the import_data.sh script**
-The `import_data.sh` script will create a virtual environment, install the necessary requirements, create the MongoDB database with the required collections, and import the data.
+3. **Source the import_data.sh script**
+The `import_data.sh` script will create a virtual environment, source it, install the necessary requirements, create the MongoDB database with the required collections, and import the data.
 
   ```bash
   source import_data.sh
