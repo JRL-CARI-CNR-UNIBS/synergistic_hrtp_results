@@ -46,7 +46,7 @@ def main():
     fig, ax = plt.subplots(figsize=(16, 8))
     if zoom:
         ax2 = plt.axes([0.2, 0.6, .2, .2])
-        ax2.set_title('Zoom in range 0-0.8 m')
+        ax2.set_title('Zoom in range 0-1.2 m')
         ax2.set_ylim([0, .04])
         ax2.set_xlim([0, 1.2])
         ax2.yaxis.set_major_formatter(mtick.PercentFormatter(xmax=1, decimals=0))
@@ -158,7 +158,7 @@ def main():
         for item in ([ax2.title, ax2.xaxis.label, ax2.yaxis.label] + ax2.get_xticklabels() + ax2.get_yticklabels()):
             item.set_fontsize(20)
 
-    plt.savefig("cumulative_distance.png")
+    plt.savefig(f"{args.experiment}_cumulative_distance.png")
 
     percentage_under_risky_dataset = pd.DataFrame.from_dict(percentage_under_risky_dataset)
     percentage_under_risky_dataset[RECIPE_NAME_COLUMN] = percentage_under_risky_dataset[RECIPE_NAME_COLUMN].replace(
@@ -168,7 +168,6 @@ def main():
     # percentage_under_risky_dataset.to_csv(Path(file_path).stem + "_percentage.csv")
     sns.catplot(data=percentage_under_risky_dataset, kind="bar", x=RECIPE_S_D_TYPE_COLUMN,
                 y=RECIPE_PERCENTAGE_COLUMN, hue=RECIPE_TYPE_COLUMN, height=8, aspect=1.5)
-
     plt.show()
 
 if __name__ == '__main__':

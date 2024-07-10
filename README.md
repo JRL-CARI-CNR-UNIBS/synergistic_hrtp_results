@@ -1,5 +1,7 @@
 # Paper results and analysis
 
+This repository contains all the data (from simulations and real experiments) and all the scripts to reproduce the graphs of the paper "Learning and planning for optimal synergistic human-robot coordination in manufacturing contexts". In addition, it contains the results of the questionnaire carried out on the pool of users who performed the experiments and the corresponding statistical analysis.
+
 ## Installation
 
 Prerequisites:

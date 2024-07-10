@@ -15,10 +15,10 @@ RECIPE_NAMES = {
     "NOT_NEIGHBORING_TASKS": "Not Neighboring TP",
     "TEST_WITH_GOHOME": "test",
     "ONELINE": "AWARE",
-    "RELAXED_HA_SOLVER": "HA-TP (Relaxed)",
+    "RELAXED_HA_SOLVER": "Relaxed S. TP",
     "BASIC_SOLVER": "Baseline TP",
-    "COMPLETE_SOLVER": "HA-TP",
-    "COMPLETE_HA_SOLVER": "HA-TP",
+    "COMPLETE_SOLVER": "Synergistic TP",
+    "COMPLETE_HA_SOLVER": "Synergistic TP",
     "TEST_COMPLETE": "Test",
     "TEST_RELAXED": "Test REL",
     "NEW": "New"
@@ -29,6 +29,8 @@ DATABASES = {
     "velocity_scaling": ("velocity_scaling", "task_results_online"),
     "realworld_case_study": ("hrc_case_study", "task_results_online")
 }
+
+ORDER = ["Baseline TP", "Not Neighboring TP", "Relaxed S. TP", "Synergistic TP"]
 
 def main():
     parser = argparse.ArgumentParser(description="Process some integers.")
@@ -79,7 +81,11 @@ def main():
         print(latex_table)
 
     if args.plotly:
-        fig = px.box(result_pd, x="Plan Duration (s)", y="Task Planner Type", color="Task Planner Type")
+        fig = px.box(result_pd, x="Plan Duration (s)", y="Task Planner Type", color="Task Planner Type", category_orders={"Task Planner Type": ORDER})
+        # fig.update_layout(
+        #     paper_bgcolor='rgba(0,0,0,0)',
+        # )
+        # fig.write_html(f"{database_name}_durations.html", full_html=False, include_plotlyjs='cdn')
         fig.show()
 
     plt.ylabel("")
