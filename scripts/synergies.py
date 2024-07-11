@@ -130,7 +130,7 @@ def main():
         main_agent_label = AGENT_LABELS.get(main_agent, {"name": main_agent, "abbreviation": main_agent})
         concurrent_agent_label = AGENT_LABELS.get(concurrent_agent, {"name": concurrent_agent, "abbreviation": concurrent_agent})
 
-        plot_title = "Synergy Matrix for agent: {} ($S^{}$)".format(main_agent_label["name"], main_agent_label["abbreviation"])
+        plot_title = "Synergy Matrix for agent: {}".format(main_agent_label["name"])
         
         for agent in [main_agent, concurrent_agent]:
             for k in data.index:
@@ -146,6 +146,8 @@ def main():
         plt.ylabel(main_agent_label["name"] + " Tasks", labelpad=25)
         plt.xticks(rotation=20, ha="right")
         plt.title(plot_title)
+        plt.tight_layout()
+        # plt.savefig(f"{plot_title}_{args.experiment}_synergies.png")
     plt.show()
 
 if __name__ == "__main__":
