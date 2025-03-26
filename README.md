@@ -79,3 +79,21 @@ args:
 If you have any problems with installation, reproduction, or doubts, please do not hesitate to contact me by email:
 
 * Samuele Sandrini: [samuele.sandrini@polito.it](mailto:samuele.sandrini@polito.it)
+
+## Citation
+
+If you found this repository useful or refer to the methods or results in your work, please cite the following:
+
+```bibtex
+@article{synergystic_hrtp_sandrini,
+  title = {Learning and planning for optimal synergistic human–robot coordination in manufacturing contexts},
+  journal = {Robotics and Computer-Integrated Manufacturing},
+  volume = {95},
+  pages = {103006},
+  year = {2025},
+  issn = {0736-5845},
+  doi = {https://doi.org/10.1016/j.rcim.2025.103006},
+  url = {https://www.sciencedirect.com/science/article/pii/S0736584525000602},
+  author = {Samuele Sandrini and Marco Faroni and Nicola Pedrocchi},
+  }
+```
